@@ -13,7 +13,6 @@ export function ConnectionLine({
 }: ConnectionLineProps) {
   const curveIntensity = 0.5;
   const midX = startX + (endX - startX) * curveIntensity;
-  const midY = startY + (endY - startY) * curveIntensity;
 
   const path = `M ${startX} ${startY} 
                  C ${midX} ${startY}, 
